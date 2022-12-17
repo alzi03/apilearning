@@ -35,8 +35,8 @@ def suncycle():
         return True
     return False
 
-EMAIL = 'alam.zishan534@gmail.com'
-PASSWORD = 'GymUser646'
+EMAIL = '' # email user goes here
+PASSWORD = '' # gmail pass goes here
 while True:
     time.sleep(60)
     if suncycle() and coordinates():
@@ -51,14 +51,6 @@ while True:
         )
 
 
-
-
-
-
-#If the ISS is close to my current position
-# and it is currently dark
-# Then send me an email to tell me to look up.
-# BONUS: run the code every 60 seconds.
 
 
 
